@@ -5,6 +5,9 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+for (let i = 0; i <names.length; i++){
+    console.log(names[i]+"je")
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -21,6 +24,11 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 
 const numbers = [2, 4, 5, 29, 38];
 
+for (let i = 0; i <numbers.length; i++) {
+    console.log(numbers[i]*3)
+
+}
+
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(numbers) geeft: [2, 4, 5, 29, 38];
@@ -36,6 +44,10 @@ const numbers = [2, 4, 5, 29, 38];
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
+for (let i = 0; i <squares.length; i++) {
+    console.log(squares[i]**3)
+
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
